@@ -1,7 +1,7 @@
 :root{
     --lightblue: #19d1d1;
     --darkblue: #214cc2;
-    --black: rgb(39, 39, 39);   
+    --black: #272727;   
 }
 
 /*Globales*/
@@ -9,6 +9,12 @@
 *{
     font-size: 62.5%;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -16,5 +22,26 @@ h1{
     font-size: 3.2rem;
     color: var(--lightblue);
     background-color: var(--black)
+}
+
+/*Pagina*/
+
+.line{
+    background-color: var(--lightblue);
+    height: 1rem;
+    width: 0px;
+    display: block;
+    animation: linea 5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linea {
+    from{width: 0;}
+    to{width: 100%}
+}
+
+
+.img__principal{
+    max-width: 100%;
 }
 
