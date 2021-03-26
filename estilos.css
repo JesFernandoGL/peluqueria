@@ -1,0 +1,20 @@
+:root{
+    --lightblue: #19d1d1;
+    --darkblue: #214cc2;
+    --black: rgb(39, 39, 39);   
+}
+
+/*Globales*/
+
+*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 3.2rem;
+    color: var(--lightblue);
+    background-color: var(--black)
+}
+
